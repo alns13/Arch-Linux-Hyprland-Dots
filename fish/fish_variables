@@ -1,0 +1,16 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --export EDITOR:nvim
+SETUVAR __fish_initialized:4300
+SETUVAR fish__greeting:
+SETUVAR fish_color_autosuggestion:404040
+SETUVAR fish_color_command:white
+SETUVAR fish_color_cwd:white
+SETUVAR fish_color_error:E3CD00
+SETUVAR fish_color_host:cc0000
+SETUVAR fish_color_param:e6e6e6
+SETUVAR fish_color_quote:bcbcbc
+SETUVAR fish_color_redirection:white
+SETUVAR fish_color_suffix:white
+SETUVAR fish_color_user:990000
+SETUVAR fish_color_valid_path:cc0000

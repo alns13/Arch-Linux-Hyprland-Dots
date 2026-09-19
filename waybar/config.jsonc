@@ -1,0 +1,44 @@
+{
+"include": [
+  "$HOME/.config/waybar/Modules",
+  "$HOME/.config/waybar/ModulesWorkspaces",
+  "$HOME/.config/waybar/ModulesCustom",
+  "$HOME/.config/waybar/ModulesGroups",
+  "$HOME/.config/waybar/UserModules",
+  ],
+"layer": "bottom",
+"exclusive": true,
+"passthrough": false,
+"position": "top",
+"spacing": 3,
+"fixed-center": true,
+"ipc": true,
+"margin-top": 3,
+"margin-left": 8,
+"margin-right": 8,
+
+"modules-left": [
+	"clock",
+	"custom/separator#blank",
+	"clock#date",
+	"custom/separator#blank",
+	"tray",
+	],
+
+"modules-center": [
+	"hyprland/workspaces#kanji",
+	],
+
+"modules-right": [
+	"group/notify",
+	"custom/separator#blank",
+	"network",
+	"custom/separator#blank",
+	"wireplumber",
+	"custom/separator#blank",
+	"mpris",
+	"custom/separator#blank",
+	"bluetooth",
+	"custom/separator#blank",
+	],
+}

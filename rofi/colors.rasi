@@ -1,0 +1,58 @@
+* {
+    /* Primary (Deep Crimson) */
+    primary:                    #990000ff;
+    primary-fixed:              #cc0000ff;
+    primary-fixed-dim:          #990000ff;
+    on-primary:                 #ffffffff;
+    on-primary-fixed:           #000000ff;
+    on-primary-fixed-variant:   #4d0000ff;
+    primary-container:          #4d0000ff;
+    on-primary-container:       #ffdad6ff;
+
+    /* Secondary (Dark Greys / Charcoal) */
+    secondary:                  #404040ff;
+    secondary-fixed:            #595959ff;
+    secondary-fixed-dim:        #404040ff;
+    on-secondary:               #bcbcbcff;
+    on-secondary-fixed:         #0a0a0aff;
+    on-secondary-fixed-variant: #262626ff;
+    secondary-container:        #262626ff;
+    on-secondary-container:     #e6e6e6ff;
+
+    /* Tertiary (Pastel Red - Matches your Directories) */
+    tertiary:                   #ff9999ff;
+    tertiary-fixed:             #ffb3b3ff;
+    tertiary-fixed-dim:         #ff9999ff;
+    on-tertiary:                #4d0000ff;
+    on-tertiary-fixed:          #000000ff;
+    on-tertiary-fixed-variant:  #660000ff;
+    tertiary-container:         #660000ff;
+    on-tertiary-container:      #ffb3b3ff;
+
+    /* Error States */
+    error:                      #ffb4abff;
+    on-error:                   #690005ff;
+    error-container:            #93000aff;
+    on-error-container:         #ffdad6ff;
+
+    /* Surfaces (Pure Black & Dark Greys) */
+    surface:                    #383838ff;
+    on-surface:                 #e6e6e6ff;
+    on-surface-variant:         #a6a6a6ff;
+    outline:                    #4d4d4dff;
+    outline-variant:            #262626ff;
+    shadow:                     #000000ff;
+    scrim:                      #000000ff;
+    inverse-surface:            #e6e6e6ff;
+    inverse-on-surface:         #0a0a0aff;
+    inverse-primary:            #ff3333ff;
+    surface-dim:                #000000ff;
+    surface-bright:             #262626ff;
+
+    /* Containers */
+    surface-container-lowest:   #000000ff;
+    surface-container-low:      #050505ff;
+    surface-container:          #0a0a0aff;
+    surface-container-high:     #1a1a1aff;
+    surface-container-highest:  #262626ff;
+}
